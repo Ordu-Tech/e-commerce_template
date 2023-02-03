@@ -1,0 +1,32 @@
+/* my custom scss */
+
+a {
+	text-decoration: none !important;
+}
+
+#special-price .grid .grid-item .item{
+	width: 200px;
+}
+
+@media only screen and (max-width: 500px) {
+	#special-price .grid .grid-item{
+		width: 100%;
+	}
+	#special-price .grid .grid-item .item{
+		width: 250px;
+		margin: 0 auto;
+	}
+}
+
+
+// @media only screen and (max-width: 500px) {
+// 	#top-sale {
+// 		overflow: hidden;
+// 	}
+// 	#top-sale .container{
+// 		overflow: hidden;
+// 	}
+// 	#top-sale .item{
+// 		overflow: hidden;
+// 	}
+// }
